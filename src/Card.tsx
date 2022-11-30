@@ -13,7 +13,7 @@ export default function Card(){
         card("/icons/truck.svg", "Ketersediaan ambulance", "Cek ketersediaan ambulan dan lokasi rumah sakit yang menyediakan")
     ]
     return(
-        <div className="grid grid-cols-3 gap-6 text-center bg-mercury-500 border-transparent  mx-36">
+        <div className="grid grid-cols-3 gap-6 text-center bg-mercury-300  px-32">
         {data.map((item) => 
         <div className="flex flex-col bg-white-50  border-transparent rounded-lg shadow  p-7 ">
         <img className="h-10 m-4" src={item.image} alt=""/>
@@ -22,8 +22,8 @@ export default function Card(){
         </div>
         )
         }
-        <button className='bg-blue-ribbon-500 text-white-500 rounded-lg mt-1 ml-[500px] font-normal w-[150px] h-10 text-sm'>
-                    Load more
+        <button className='bg-blue-ribbon-500 text-white-500 rounded-lg mt-1 ml-[500px] font-medium w-[140px] h-11 text-[15px]'>
+                    load more
         </button>
      </div>
      

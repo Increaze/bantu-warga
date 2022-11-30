@@ -7,7 +7,7 @@ import { TiSocialFacebook } from 'react-icons/ti'
 export default function Form(){
     return(
         <div className="mx-56 mt-24 bg-white-50 py-16 px-12 rounded-xl shadow-xl mb-20">
-            <h1 className='text-3xl text-blue-ribbon-500 tracking-widest text-center font-semibold mb-4'>Contact</h1>
+            <h1 className='text-3xl text-blue-ribbon-500  tracking-widest text-center font-semibold mb-4'>Contact</h1>
              <div className="md:container px-10 py-4 ">
             <form>
                     <span className="block font-medium mb-4 tracking-wider text-xl">
@@ -52,10 +52,6 @@ export default function Form(){
                             </div>
                         </div>
                     </div>
-                
-                  
-                    {/* <div className="block">
-                    </div> */}
             </form>
         </div>
         </div>

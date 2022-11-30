@@ -7,16 +7,19 @@ import SecondLayer from './SecondLayer'
 
 function App() {
   return (
-      <div className='wrapper bg-mercury-500'>
+      <div className='wrapper bg-mercury-300'>
         <Navbar/>
         <Hero/>
         <SecondLayer/>
 
-        <div className="flex justify-between pl-36 gap-2 pr-52  ">
-            <div className="h-[500px] w-[500px] relative flex rounded-full ring-gray-300 ring-8 bg-blue-ribbon-500">
-              <img className='h-[500px] absolute left-[104px] rounded-xl bottom-10' src="/icons/phone-img.svg" alt="phoneImage" />
-            </div>
-            <div className='w-[450px] mt-20 '>
+        <div className="flex justify-between pl-36 gap-4 pr-72">
+          <img className=' h-[600px] rounded-full' src="/icons/Mask Group.svg" alt="phoneImage" />
+
+          {/* BORDER YET TO BE FIXED 
+           <div className="h-[300px] w-[300px] absolute bottom-100 pt-10 flex rounded-full ring-gray-300 ring-8 bg-blue-ribbon-500">
+          </div> */}
+            
+            <div className='w-[550px] mt-48 '>
               <div className='pb-8'>
                 <span className='text-blue-ribbon-500 relative ml-4 font-semibold text-base '>
                     Download now

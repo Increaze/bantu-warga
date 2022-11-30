@@ -1,6 +1,6 @@
 export default function Hero(){
     return(
-        <div className="hero-content flex justify-between ml-28 bg-mercury-500 ">
+        <div className="hero-content flex justify-between ml-28 bg-mercury-300 ">
               <div className="text block ">
                 <div className="relative mt-48">
                   <h1 className='text-5xl w-[500px] tracking-widest font-semibold leading-relaxed'><span className=' text-blue-ribbon-500'>Saling </span> 

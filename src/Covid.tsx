@@ -1,6 +1,6 @@
 export default function Covid(){
     return(
-        <div className="flex justify-between ml-36 mr-36 md:mt-6 ">
+        <div className="flex justify-between pl-36 pr-36 pt-6 ">
             <div className='w-[475px] mt-28 '>
                 <div className='mb-4'>
                         <span className='text-blue-ribbon-500 font-semibold text-base relative ml-4'>
