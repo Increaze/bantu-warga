@@ -1,0 +1,31 @@
+ {/* grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 md: */}
+                  {/* <div className=" bg-purple-500">
+                        <div className="flex-1 p-10">
+                            {data.map((item)=>
+                           
+                            <ul className="grid grid-cols-3 gap-8">
+                                <li className="bg-white rounded-lg shadow-xl">
+                                    <div className="px-8">
+                                    <img className="h-10 m-6" src={item.image} alt=""/>
+                                    <h5 className="text-center">{item.title}</h5>
+                                    <span className='font-extralight text-sm text-center'>{item.text}</span>
+                                    </div>
+                                </li>
+                                </ul>
+                             )} */}
+                               
+                                
+                                {/* <li className="bg-white col-span-2 rounded-lg shadow-xl"><div className="h-24"></div></li>
+                                <li className="bg-white col-span-2 rounded-lg shadow-xl"><div className="h-24"></div></li>
+                                <li className="bg-white col-span-2 rounded-lg shadow-xl"><div className="h-24"></div></li>
+                                <li className="bg-white rounded-lg shadow-xl"><div className="h-24"></div></li> */}
+                                {/* <li className="bg-white rounded-lg shadow-xl"><div className="h-24"></div></li>
+                                <li className="bg-white rounded-lg shadow-xl"><div className="h-24"></div></li>
+                                <li className="bg-white rounded-lg shadow-xl"><div className="h-24"></div></li>
+                                <li className="bg-white rounded-lg shadow-xl"><div className="h-24"></div></li>
+                                <li className="bg-white rounded-lg shadow-xl"><div className="h-24"></div></li> */}
+                          
+                        {/* </div> */}
+
+                    {/* </div> */}
+                // 
