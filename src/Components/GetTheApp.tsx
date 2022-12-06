@@ -1,6 +1,6 @@
 export const GetTheApp = () => {
   return (
-    <div className="flex gap-1 px-32 items-center">
+    <div className="flex gap-1 px-32 items-center bg-mercury-300">
       <img
         className="h-[600px] rounded-full"
         src="/icons/Mask Group.svg"

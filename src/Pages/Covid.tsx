@@ -26,7 +26,7 @@ export default function Covid() {
     ),
   ];
   return (
-    <div className="grid grid-cols-6 justify-between pl-36 pr-36 pt-6 ">
+    <div className="grid grid-cols-6 justify-between pl-36 pr-36 pt-6 bg-mercury-300 ">
       <div className="mt-28 col-span-4">
         <div className="mb-4">
           <p className="text-blue-ribbon-500 font-semibold text-base border-l-4 border-blue-ribbon-500 pl-4">
