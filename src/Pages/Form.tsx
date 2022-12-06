@@ -22,31 +22,31 @@ export default function Form() {
     <div className="bg-mercury-300">
       <div className="px-56 py-20  z-[30px]">
         <div className="shadow rounded-xl pt-12 pb-14 bg-white-50">
-          <h1 className="text-3xl text-blue-ribbon-500  tracking-widest text-center font-semibold mb-4">
+          <h1 className="text-3xl text-blue-ribbon-500  tracking-widest text-center font-semibold">
             Contact
           </h1>
           <div className="md:container px-10 py-4  ">
             <form>
-              <span className="block font-medium mb-4 tracking-wider text-xl">
+              <span className="block font-medium mb-7 tracking-wider text-xl leading-[30px]">
                 Leave us a message
               </span>
               <div className="flex justify-between gap-8">
                 <div className="flex flex-col gap-6">
                   <input
-                    className="px-10 py-2  w-[400px] border border-gray-900 rounded "
+                    className="px-10 py-2 border rounded  focus:outline-none focus:ring-1 "
                     type="text"
                     placeholder="your name"
                   />
                   <input
-                    className="px-10 py-2 w-[400px] border border-gray-900 rounded focus:outline-none focus:ring-1"
+                    className="px-10 py-2 border rounded focus:outline-none focus:ring-1"
                     type="text"
                     placeholder="Email address"
                   />
                   <textarea
-                    className="px-10 py-2 w-[400px] border h-24 border-gray-900 rounded focus:outline-none focus:ring-1"
+                    className="px-10 py-2 border h-32  rounded focus:outline-none focus:ring-1"
                     placeholder="Your message"
                   />
-                  <button className="bg-blue-ribbon-500 px-10 py-2 w-[400px] rounded-lg text-white-50">
+                  <button className="bg-blue-ribbon-500 px-10 py-3 w-[400px] rounded-lg text-white-50">
                     {" "}
                     Send{" "}
                   </button>
