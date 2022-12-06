@@ -1,4 +1,4 @@
-import { AiFillYoutube, AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
+import {  AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
 import { TiSocialFacebook } from 'react-icons/ti'
 
 export default function Footer(){
@@ -59,11 +59,7 @@ export default function Footer(){
         </div>
         </div>
        
-        
-        // </div>
-        
-        
-        // </div>
+
        
     )
 }
