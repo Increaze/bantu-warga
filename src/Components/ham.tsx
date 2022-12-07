@@ -1,12 +1,12 @@
-import { useState } from "react"; // import state
+import { useState } from "react";
 
 export default function Ham() {
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
   return (
-    <div className="flex items-center justify-between border-b border-gray-400 pt-8">
+    <div className="flex items-center justify-between border-gray-400 pt-8">
       <a href="/">
-        <img src="/icons/bantu.svg" alt="logo" />
+        <img className="relative top-0 right-0 pr-48" src="/icons/bantu.svg" alt="logo" />
       </a>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
@@ -14,9 +14,9 @@ export default function Ham() {
             className="HAMBURGER-ICON space-y-2"
             onClick={() => setIsNavOpen((prev) => !prev)} // toggle isNavOpen state on click
           >
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+            <span className="block h-0.5 w-8  bg-blue-ribbon-500"></span>
+            <span className="block h-0.5 w-8  bg-blue-ribbon-500"></span>
+            <span className="block h-0.5 w-8  bg-blue-ribbon-500"></span>
           </div>
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}> 
@@ -32,39 +32,30 @@ export default function Ham() {
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
+               
               >
                 <line x1="18" y1="6" x2="6" y2="18" />
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
-            <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[150px] mt-8 pr-10">
-              <li className="border-0 border-gray-400 pt-8 ">
+            <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[150px] mt-8">
+              <li className="border-0 border-gray-400 pt-8 hover:text-blue-ribbon-500 ">
                 <a href="/about">Home</a>
               </li>
-              <li className="border-0 border-gray-400">
+              <li className="border-0 border-gray-400 hover:text-blue-ribbon-500">
                 <a href="/portfolio">Pricing</a>
               </li>
-              <li className="border-0 border-gray-400  ">
+              <li className="border-0 border-gray-400 hover:text-blue-ribbon-500 ">
                 <a href="/contact">About</a>
               </li>
-              <li className="border-0 border-gray-400 ">
+              <li className="border-0 border-gray-400 hover:text-blue-ribbon-500 ">
                 <a href="/contact">Contact</a>
               </li>
             </ul>
           </div>
         </section>
 
-        {/* <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
-          <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
-            <a href="/portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-        </ul> */}
+      
       </nav>
       <style>{`
       .hideMenuNav {

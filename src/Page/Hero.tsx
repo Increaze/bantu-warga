@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <div className="hero-content block lg:flex justify-between p-2 lg:pl-28">
-      <div className="mt-56 lg:w-[50%] ">
+      <div className="mt-32 lg:mt-56 lg:w-[50%] ">
         <div className="relative ">
           <h1 className="text-[35px] items-center lg:text-left lg:text-5xl tracking-wide font-semibold leading-relaxed lg:pr-20  ">
             <span className="text-blue-ribbon-500">Saling </span>
