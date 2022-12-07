@@ -9,7 +9,7 @@ import SecondLayer from "./Page/SecondLayer";
 function App() {
   return (
     <>
-      <div className="container shadow">
+      <div className="container">
         <Navbar />
       </div>
       <Hero/>
