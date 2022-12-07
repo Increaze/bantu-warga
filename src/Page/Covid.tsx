@@ -48,7 +48,7 @@ export default function Covid() {
           <Button text={"See demo"} />
         </div>
       </div>
-      <div className="lg:col-span-2">
+      <div className="lg:pt-32 lg:col-span-2">
         <img
           className="lg:block"
           src="/icons/Group 386.svg"

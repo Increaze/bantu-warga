@@ -12,7 +12,7 @@ function App() {
       <div className="container shadow">
         <Navbar />
       </div>
-      <Hero />
+      <Hero/>
       <SecondLayer />
       <GetTheApp />
       <Covid />
