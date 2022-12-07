@@ -1,4 +1,4 @@
-export const Card = ({ cardItem: { image, title, text } }) => {
+export const Card = ({ cardItem: { image, title, text } }: { cardItem: {image:string, title:string, text:string} }) => {
   return (
     <div className="flex flex-col bg-white-50  border-transparent rounded-lg  p-7 hover:shadow">
       <img className="h-10 m-4" src={image} alt="" />

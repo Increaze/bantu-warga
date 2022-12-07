@@ -1,4 +1,4 @@
-export const TextInfo = ({ item: { image, title, text } }) => {
+export const TextInfo = ({ item: { image, title, text } }: {item: {image:string, title:string, text:string} }) => {
   return (
     <div className="grid mb-6 justify-between grid-cols-12">
       <div className="w-[37px] col-span-2 lg:col-span-1">
