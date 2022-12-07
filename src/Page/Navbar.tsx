@@ -1,8 +1,8 @@
 export default function Navbar() {
   return (
-    <div className="shadow lg:shadow-none bg-white-500 py-4 sm:block gap-2">
-      <nav className="flex  justify-between bg-white-500 items-center">
-        <div className="nav-logo flex w-[50%] justify-between">
+    <div className="bg-white-500  py-4 sm:block gap-2">
+      <nav className="flex justify-between bg-white-500 items-center">
+        <div className="flex w-[50%] justify-between">
           <img className="" src="/icons/bantu.svg" alt="bantu" />
           <ul className="text-storm-dust-500 flex font-medium text-base items-center w-[60%] justify-between">
             <li className="text-blue-ribbon-500">Home</li>

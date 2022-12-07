@@ -9,7 +9,7 @@ import SecondLayer from "./Page/SecondLayer";
 function App() {
   return (
     <>
-      <div className="container mx-auto ">
+      <div className="container shadow">
         <Navbar />
       </div>
       <Hero />
@@ -19,8 +19,6 @@ function App() {
       <Form />
       <Footer />
     </>
-
-   
   );
 }
 
